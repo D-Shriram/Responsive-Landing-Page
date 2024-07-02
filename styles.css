@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #FFD700;
+}
+
+.content {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #ccc;
+}
